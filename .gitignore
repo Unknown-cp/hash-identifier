@@ -1,0 +1,25 @@
+# Python bytecode — compiled automatically, never commit these
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environment — each developer creates their own with `uv sync`
+.venv/
+
+# Tool caches — regenerated on every run, no need to track
+.mypy_cache/
+.ruff_cache/
+.pytest_cache/
+
+# Build / packaging artifacts
+dist/
+build/
+*.egg-info/
+
+# Coverage reports
+.coverage
+htmlcov/
+
+# OS junk
+.DS_Store
+Thumbs.db
